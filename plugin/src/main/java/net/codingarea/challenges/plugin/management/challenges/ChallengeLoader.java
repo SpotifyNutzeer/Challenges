@@ -77,22 +77,7 @@ import net.codingarea.challenges.plugin.challenges.implementation.challenge.rand
 import net.codingarea.challenges.plugin.challenges.implementation.challenge.randomizer.RandomizedHPChallenge;
 import net.codingarea.challenges.plugin.challenges.implementation.challenge.time.MaxBiomeTimeChallenge;
 import net.codingarea.challenges.plugin.challenges.implementation.challenge.time.MaxHeightTimeChallenge;
-import net.codingarea.challenges.plugin.challenges.implementation.challenge.world.AllBlocksDisappearChallenge;
-import net.codingarea.challenges.plugin.challenges.implementation.challenge.world.AnvilRainChallenge;
-import net.codingarea.challenges.plugin.challenges.implementation.challenge.world.BedrockPathChallenge;
-import net.codingarea.challenges.plugin.challenges.implementation.challenge.world.BedrockWallChallenge;
-import net.codingarea.challenges.plugin.challenges.implementation.challenge.world.BlockFlyInAirChallenge;
-import net.codingarea.challenges.plugin.challenges.implementation.challenge.world.BlocksDisappearAfterTimeChallenge;
-import net.codingarea.challenges.plugin.challenges.implementation.challenge.world.ChunkDeconstructionChallenge;
-import net.codingarea.challenges.plugin.challenges.implementation.challenge.world.ChunkDeletionChallenge;
-import net.codingarea.challenges.plugin.challenges.implementation.challenge.world.FloorIsLavaChallenge;
-import net.codingarea.challenges.plugin.challenges.implementation.challenge.world.IceFloorChallenge;
-import net.codingarea.challenges.plugin.challenges.implementation.challenge.world.LevelBorderChallenge;
-import net.codingarea.challenges.plugin.challenges.implementation.challenge.world.LoopChallenge;
-import net.codingarea.challenges.plugin.challenges.implementation.challenge.world.RepeatInChunkChallenge;
-import net.codingarea.challenges.plugin.challenges.implementation.challenge.world.SnakeChallenge;
-import net.codingarea.challenges.plugin.challenges.implementation.challenge.world.SurfaceHoleChallenge;
-import net.codingarea.challenges.plugin.challenges.implementation.challenge.world.TsunamiChallenge;
+import net.codingarea.challenges.plugin.challenges.implementation.challenge.world.*;
 import net.codingarea.challenges.plugin.challenges.implementation.goal.*;
 import net.codingarea.challenges.plugin.challenges.implementation.goal.forcebattle.*;
 import net.codingarea.challenges.plugin.challenges.implementation.setting.*;
@@ -233,6 +218,7 @@ public final class ChallengeLoader extends ModuleChallengeLoader {
 		register(IceFloorChallenge.class);
 		register(LevelBorderChallenge.class);
 		register(ChunkDeletionChallenge.class);
+		register(AchievementBorderChallenge.class);
 
 		// Inventory
 		register(PermanentItemChallenge.class);

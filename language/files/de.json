@@ -1184,6 +1184,11 @@
 		"Die *Border-Größe* passt sich dem *Spieler*",
 		"mit den *meisten Leveln* an."
 	],
+	"item-advancements-border-challenge": [
+		"§eAdvancement = Border",
+		"Die *Border-Größe* passt sich dem *Spieler*",
+		"mit den meisten abgeschlossenen Erfolgen an."
+	],
 	"item-chunk-effect-challenge": [
 		"§3Zufällige Chunk Effekte",
 		"In *jedem Chunk* bekommst du",
